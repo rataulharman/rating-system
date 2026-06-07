@@ -1,2 +1,9 @@
 @charset "utf-8";
 @import './reset.css';
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 200px;
+}
