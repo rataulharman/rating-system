@@ -40,22 +40,27 @@ body {
 }
 
 .dialog-box {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.918);
   padding: 30px;
   border-radius: 10px;
   text-align: center;
 }
 
 .dialog-box h2 {
-  color: black;
+  color:  rgb(35, 23, 78);
   margin-bottom: 20px;
 }
 
 .dialog-box button {
   padding: 8px 16px;
-  background-color: black;
+  background-color: rgb(35, 23, 78);
   color: white;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dialog-box button:hover {
+  background-color:  rgb(53, 42, 94);
 }
 
 .open-button {
@@ -67,5 +72,11 @@ body {
   background-color: rgb(60, 21, 200);
   color: white;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.open-button:hover {
+  background-color: rgb(44, 14, 152);
+  transform: translate(1px);
 }
 
